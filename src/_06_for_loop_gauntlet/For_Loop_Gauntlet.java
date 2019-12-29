@@ -53,5 +53,11 @@ public static void main(String[] args) {
 		}
 		System.out.println("");
 	}
+	for(int u=0; u<6; u++) {
+		for(int v=0; v<u+1; v++) {
+		System.out.print("*");
+	}
+		System.out.println();
+	}
 }
 }
